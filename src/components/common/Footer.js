@@ -35,7 +35,11 @@ const Footer = () => {
                   value={subValue}
                   onChange={(e) => setSubValue(e.target.value)}
                 />
-                <button type='submit' className='btn'>
+                <button
+                  type='submit'
+                  style={{ backgroundColor: '#000' }}
+                  className='btn'
+                >
                   Abone ol
                 </button>
               </form>
